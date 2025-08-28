@@ -5,6 +5,12 @@
   text-align: center;
 }
 
+.item{
+  background: black;
+  color: white;
+  border: 6px solid black;
+  border-radius: 90px 90px 90px 90px;
+}
 .logo {
   height: 6em;
   padding: 1.5em;

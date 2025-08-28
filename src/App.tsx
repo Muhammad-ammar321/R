@@ -1,20 +1,35 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
 import './App.css'
-// import Welcome from './components/welcome'
-import Bio from './components/bio/bio'
-
+import Blogs from './components/blog'
+// import Bio from './components/bio/bio'
+import Counter from './components/Counter'
+import List from './components/list'
+import Stepper from './components/stepper'
 function App() {
   return (
     <>
-    <Bio name="user" email="user@email.com" occupation=''>
+  
+    {/* <Stepper /> */}
+    {/* <Blogs /> */}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    <Counter />
+    {/* <List /> */}
+    
+
+    {/* <Bio name="user" email="user@email.com" occupation=''>
       <p>My hobbies are</p>
       <ol>
         <li>reading</li>
         <li>gaming</li>
       </ol>
-    </Bio> 
+    </Bio>  */ }
     </>
   )
 }
